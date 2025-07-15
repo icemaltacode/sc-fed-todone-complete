@@ -1,6 +1,6 @@
-import useTask from "./useTask";
+import useTask from "./useTask.jsx";
 
-import Button from "../Button";
+import Button from "../Button.jsx";
 
 function TaskAdd() {
   const {

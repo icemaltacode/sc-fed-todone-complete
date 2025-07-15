@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import useTask from "../task/useTask";
+import useTask from "../task/useTask.jsx";
 
-import StepContext from "./context";
+import StepContext from "./context.jsx";
 
 function StepProvider({ taskId, children }) {
   const {

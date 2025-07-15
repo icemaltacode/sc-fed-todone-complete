@@ -1,4 +1,4 @@
-import useTask from "./useTask";
+import useTask from "./useTask.jsx";
 
 function TaskControls({ id, isEditable, setEditable }) {
   const {

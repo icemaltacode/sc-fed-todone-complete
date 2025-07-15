@@ -1,5 +1,5 @@
-import TaskContext from "./context";
-import useTaskReducer from "./useTaskReducer";
+import TaskContext from "./context.jsx";
+import useTaskReducer from "./useTaskReducer.jsx";
 
 function TaskProvider({ children }) {
   const value = useTaskReducer();

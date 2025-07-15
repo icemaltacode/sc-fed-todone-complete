@@ -1,5 +1,5 @@
-import useStep from "./useStep";
-import Button from "../Button";
+import useStep from "./useStep.jsx";
+import Button from "../Button.jsx";
 
 function StepEdit({ index }) {
   const {

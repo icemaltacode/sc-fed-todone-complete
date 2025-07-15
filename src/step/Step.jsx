@@ -1,11 +1,11 @@
 import { memo, Fragment } from "react";
 
-import useStep from "./useStep";
-import StepControls from "./StepControls";
-import StepCheckbox from "./StepCheckbox";
-import StepEdit from "./StepEdit";
+import useStep from "./useStep.jsx";
+import StepControls from "./StepControls.jsx";
+import StepCheckbox from "./StepCheckbox.jsx";
+import StepEdit from "./StepEdit.jsx";
 
-import Button from "../Button";
+import Button from "../Button.jsx";
 
 function Step({ index }) {
   const {

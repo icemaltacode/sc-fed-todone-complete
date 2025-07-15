@@ -1,6 +1,6 @@
 import { useEffect, useReducer } from "react";
 
-import initialState from "./fixture";
+import initialState from "./fixture.jsx";
 
 function reducer(state, { type, payload }) {
   switch (type) {

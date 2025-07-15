@@ -1,4 +1,4 @@
-import useStep from "./useStep";
+import useStep from "./useStep.jsx";
 
 function StepDroppable({ id, position }) {
   const {

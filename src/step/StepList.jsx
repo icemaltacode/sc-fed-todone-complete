@@ -1,9 +1,9 @@
 import { Fragment } from "react";
 
-import useStep from "./useStep";
-import Step from "./Step";
-import StepAdd from "./StepAdd";
-import StepDroppable from "./StepDroppable";
+import useStep from "./useStep.jsx";
+import Step from "./Step.jsx";
+import StepAdd from "./StepAdd.jsx";
+import StepDroppable from "./StepDroppable.jsx";
 
 function StepList() {
   const {

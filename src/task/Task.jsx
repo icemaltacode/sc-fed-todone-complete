@@ -1,10 +1,10 @@
 import { useState, useMemo } from "react";
 
 import { StepProvider, StepList } from "../step";
-import useTask from "./useTask";
-import TaskHeader from "./TaskHeader";
-import TaskControls from "./TaskControls";
-import TaskProgress from "./TaskProgress";
+import useTask from "./useTask.jsx";
+import TaskHeader from "./TaskHeader.jsx";
+import TaskControls from "./TaskControls.jsx";
+import TaskProgress from "./TaskProgress.jsx";
 
 function Task({ id }) {
   const {

@@ -1,6 +1,6 @@
-import Task from "./Task";
-import TaskAdd from "./TaskAdd";
-import useTask from "./useTask";
+import Task from "./Task.jsx";
+import TaskAdd from "./TaskAdd.jsx";
+import useTask from "./useTask.jsx";
 
 function TaskList() {
   const {
